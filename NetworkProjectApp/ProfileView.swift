@@ -9,7 +9,20 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("userPicture1")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 120, height: 120)
+                .clipShape(Circle())
+                .shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 5)
+            Text("Alicia")
+                .font(.title2)
+                .fontWeight(.bold)
+            Text("Développeuse iOS")
+                .font(.subheadline)
+                .fontWeight(.light)
+        }
     }
 }
 
