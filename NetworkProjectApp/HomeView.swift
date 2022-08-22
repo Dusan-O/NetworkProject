@@ -30,14 +30,23 @@ struct HomeView: View {
         )
     ]
     var body: some View {
-        VStack {
-            ProfileView(pictureName: "userPicture1", name: "Alice", jobTitle: "Développeuse")
-            Divider()
-            ScrollView {
-                ForEach(certificates) { certificate in
-                    CertificatesView(certificate: certificate)
+        NavigationView {
+            VStack {
+                ProfileView(pictureName: "userPicture1", name: "Alice", jobTitle: "Développeuse")
+                Divider()
+                ScrollView {
+                    ForEach(certificates) { certificate in
+                        NavigationLink {
+                            DetailCertificateview(certificate: certificate)
+                        } label: {
+                            CertificatesView(certificate: certificate)
+                        }
+                        CertificatesView(certificate: certificate)
+                            .foregroundColor(.primary)
+                    }
                 }
             }
+            .navigationTitle("Profile")
         }
     }
 }
