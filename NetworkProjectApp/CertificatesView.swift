@@ -30,7 +30,9 @@ struct CertificatesView: View {
                     .fontWeight(.light)
             }
             Spacer()
-            Text(certificate.completionDate.debugDescription)
+            Text(certificate.completionDate.formattedString())
+                .font(.callout)
+                .foregroundColor(.gray)
         }
         .padding()
         .frame(minWidth: .infinity)

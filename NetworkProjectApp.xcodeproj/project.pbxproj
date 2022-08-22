@@ -15,6 +15,7 @@
 		2F43C6BD28B2F8E300EBCD3B /* CertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43C6BC28B2F8E300EBCD3B /* CertificatesView.swift */; };
 		2F43C6BF28B2F92800EBCD3B /* Certificates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43C6BE28B2F92800EBCD3B /* Certificates.swift */; };
 		2F43C6C128B2FA0B00EBCD3B /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43C6C028B2FA0B00EBCD3B /* PreviewData.swift */; };
+		2F43C6C328B2FDDC00EBCD3B /* Daye+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43C6C228B2FDDC00EBCD3B /* Daye+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2F43C6BC28B2F8E300EBCD3B /* CertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesView.swift; sourceTree = "<group>"; };
 		2F43C6BE28B2F92800EBCD3B /* Certificates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certificates.swift; sourceTree = "<group>"; };
 		2F43C6C028B2FA0B00EBCD3B /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		2F43C6C228B2FDDC00EBCD3B /* Daye+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Daye+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				2F43C6B228B2F14700EBCD3B /* Preview Content */,
 				2F43C6BE28B2F92800EBCD3B /* Certificates.swift */,
 				2F43C6C028B2FA0B00EBCD3B /* PreviewData.swift */,
+				2F43C6C228B2FDDC00EBCD3B /* Daye+Extension.swift */,
 			);
 			path = NetworkProjectApp;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				2F43C6BF28B2F92800EBCD3B /* Certificates.swift in Sources */,
 				2F43C6C128B2FA0B00EBCD3B /* PreviewData.swift in Sources */,
 				2F43C6BB28B2F1A300EBCD3B /* ProfileView.swift in Sources */,
+				2F43C6C328B2FDDC00EBCD3B /* Daye+Extension.swift in Sources */,
 				2F43C6BD28B2F8E300EBCD3B /* CertificatesView.swift in Sources */,
 				2F43C6AD28B2F14400EBCD3B /* NetworkProjectAppApp.swift in Sources */,
 			);
@@ -300,7 +304,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -329,7 +333,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
